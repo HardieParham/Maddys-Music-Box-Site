@@ -1,0 +1,44 @@
+// Bulma Base Sass
+@use "bulma/sass/base";
+@use "bulma/sass/themes";
+
+
+// Other Bulma Components
+@use "bulma/sass/components/navbar";
+
+@use "bulma/sass/elements/box";
+@use "bulma/sass/elements/button";
+@use "bulma/sass/elements/content";
+@use "bulma/sass/elements/image";
+@use "bulma/sass/elements/title";
+
+
+@use "bulma/sass/layout/level";
+@use "bulma/sass/layout/media";
+@use "bulma/sass/layout/section";
+@use "bulma/sass/layout/footer" with (
+    $footer-padding: 3rem 1.5rem 3rem
+);
+
+@use "bulma/sass/helpers/typography";
+
+//Post-Bulma SCSS
+@import './variables.scss';
+
+// :root {
+    // --bulma-navbar-background-color: hsl(182,82%,93%);
+// }
+
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#content-container {
+    flex: 1; /* Pushes footer down */
+}
+
+span {
+    font-weight: bold;
+};
