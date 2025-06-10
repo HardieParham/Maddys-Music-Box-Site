@@ -1,13 +1,205 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maddy's Music Box</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="shortcut icon" href="favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Maddy's Music Box</title>
+        <link rel="stylesheet" href="src/styles/base.min.css">
+    </head>
+    <body>
+
+        <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a href="/" class="navbar-item"><span>Madddy's Music Box</span></a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true" style="color: black;"></span>
+                    <span aria-hidden="true" style="color: black;"></span>
+                    <span aria-hidden="true" style="color: black;"></span>
+                    <span aria-hidden="true" style="color: black;"></span>
+                </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="about.html" class="navbar-item">About</a>
+                    <a href="contact.html" class="navbar-item">Contact</a>
+                </div>
+                <div class="navbar-end">
+                    <a href="#" class="navbar-item">
+                        <figure class="image is-24x24">
+                            <img src="icons/facebook.png" alt="Facebook icon">
+                        </figure>
+                    </a>
+                    <a href="#" class="navbar-item">
+                        <figure class="image is-24x24">
+                            <img src="icons/instagram.png" alt="Instagram icon">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section">
+
+            <nav class="level">
+                <div class="level-left">
+                    <figure class="image is-128x128">
+                        <img src="icons/MBB_Logo_New.png" alt="My image">
+                    </figure>
+                    <p class="title is-3">Welcome to Maddy's Music Box!</p>
+
+                </div>
+            </nav>
+
+            <p class="title is-4">Maddy's Mission</p>
+            <article class="media">
+                <div class="media-content">
+                    <div class="box">
+                        <div class="content">
+                            <p>Provide affordable music lessons for anyone with a passion for music! Serving the northern TN/southern KY 
+                            community, my goal is to get people to fall in love with music! There doesn't have to be any pressure; I 
+                            teach any skillset, any age. Now offering tutoring courses in White House, TN or online. Let's make a course schedule
+                            around YOUR needs!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="media-right">
+                    <figure class="image is-128x128">
+                        <img class="is-rounded" src="images/Maddy_Headshot.jpg" alt="Placeholder image">
+                    </figure>
+                </div>
+            </article>
+
+            <div class="block" style="margin-bottom: 35px;">
+                <p class="title is-4">Maddy's Pricing</p>
+                <nav class="level-left">
+                    <div class="level-item has-text-centered">
+                        <div class="box">
+                            <p class="subtitle">15 Minute Call</p>
+                            <p class="title">FREE!</p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div class="box">
+                            <p class="subtitle">30 Minute Lesson</p>
+                            <p class="title">$30</p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div class="box">
+                            <p class="subtitle">1 Hour Lesson</p>
+                            <p class="title">$50</p>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="block">
+                <p class="title is-4">Maddy's Offerings</p>
+
+                <article class="media">
+                    <figure class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="images/Maddy2.JPG" alt="My image">
+                        </figure>
+                    </figure>
+                    <div class="media-content">
+                        <p class="title is-5">Guitar</p>
+                        <p>as;kdjfhla;skjflakjsdflkasjdf lkajshdf lkjashd flkjahsdflk</p>
+                    </div>
+                </article>
+
+
+                <article class="media">
+                    <figure class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="images/Maddy5ALT.png" alt="My image">
+                        </figure>
+                    </figure>
+                    <div class="media-content">
+                        <p class="title is-5">Drums</p>
+                        <p>as;kdjfhla;skjflakjsdflkasjdf lkajshdf lkjashd flkjahsdflk</p>
+                    </div>
+                </article>
+
+
+                <article class="media">
+                    <figure class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="images/Maddy4ALT.png" alt="My image">
+                        </figure>
+                    </figure>
+                    <div class="media-content">
+                        <p class="title is-5">Bass</p>
+                        <p>as;kdjfhla;skjflakjsdflkasjdf lkajshdf lkjashd flkjahsdflk</p>
+                    </div>
+                </article>
+
+
+                <article class="media">
+                    <figure class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="images/Bass1.jpg" alt="My image">
+                        </figure>
+                    </figure>
+                    <div class="media-content">
+                        <p class="title is-5">Piano</p>
+                        <p>as;kdjfhla;skjflakjsdflkasjdf lkajshdf lkjashd flkjahsdflk</p>
+                    </div>
+                </article>
+
+
+                <article class="media">
+                    <figure class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="images/Maddy7.JPG" alt="My image">
+                        </figure>
+                    </figure>
+                    <div class="media-content">
+                        <p class="title is-5">Ukelele</p>
+                        <p>as;kdjfhla;skjflakjsdflkasjdf lkajshdf lkjashd flkjahsdflk</p>
+                    </div>
+                </article>
+
+
+                <article class="media">
+                    <figure class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="images/Teaching1.jpg" alt="My image">
+                        </figure>
+                    </figure>
+                    <div class="media-content">
+                        <p class="title is-5">Music Theory</p>
+                        <p>as;kdjfhla;skjflakjsdflkasjdf lkajshdf lkjashd flkjahsdflk</p>
+                    </div>
+                </article>
+            </div>
+
+
+            <div class="block">
+                <a href="about.html" style="padding-bottom: 15px; margin: 15px;">
+                    <button class="button is-large is-fullwidth has-text-weight-bold">About Maddy and Testimonials</button>
+
+                </a>
+                <a href="contact.html" style="padding-bottom: 15px; margin: 15px;">
+                    <button class="button is-large is-fullwidth has-text-weight-bold">Register Now!</button>
+                </a>
+            </div>
+            
+        </section>
+
+
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                Website by <a href="https://cozymuggsoftware.com/" target="_blank">Cozymugg Software</a>.
+                Icons via <a href="https://www.flaticon.com/" target="_blank">FlatIcon</a>.
+                &copy;Maddy's Music Box. All rights reserved. White House, TN 37188.
+                </p>
+            </div>
+        </footer>
+
+        <script type="module" src="src/jquery.js"></script>
+        <script type="module" src="src/main.js"></script>
+    </body>
 </html>
