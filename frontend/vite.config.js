@@ -7,6 +7,7 @@ export default defineConfig({
         main: 'index.html',
         about: 'about.html',
         contact: 'contact.html',
+        four: '404.html',
       }
     }
   }
