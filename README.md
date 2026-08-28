@@ -1,2 +1,13 @@
 # E-001-Maddys-Music-Box-Site
-Public website for Maddy's Music Box
+Public facing website for Maddy's Music Box business of White House, TN. [Link](https://maddysmusicbox.com/)
+
+## Pages
+- Index
+- About
+- Contact
+
+## Tech Stack
+- Static HTML pages
+- Bulma CSS (+JS)
+- Vite build tool
+- firebase hosting
